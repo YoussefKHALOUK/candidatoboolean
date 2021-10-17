@@ -1,0 +1,66 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.mainDiv {
+    color: white;
+    margin: 50px auto;
+    width: 1200px;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.mainDiv img {
+    height: 100px;
+}
+
+.mainDiv h1 {
+    color: rgb(0, 235, 0);
+}
+
+.buttonDiv {
+    width: 100%;
+    background:rgb(0, 235, 0);
+    padding: 1%;
+}
+
+.statoCarica_1 {
+    width: 60%;
+    background: orange;
+    content: "";
+    border-radius: 5px;
+}
+
+.statoCarica_2 {
+    width: 100%;
+    background: green;
+    content: "";
+    border-radius: 5px;
+}
+
+.statoCarica_3 {
+    width: 30%;
+    background: red;
+    content: "";
+    border-radius: 5px;
+}
+
+.listInfo {
+    float: left;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.listInfo label {
+    font-size: x-large;
+}
+
+.listInfo ul {
+    list-style-type: none;
+}
